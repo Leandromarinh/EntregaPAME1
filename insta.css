@@ -1,0 +1,267 @@
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#fafafa;
+}
+
+#topo{
+    display: flex;
+    width: 100%;
+    height: 54px;
+    justify-content: space-between;
+    align-items:center;
+    background-color:;
+    border-bottom: 1px;
+    border-bottom-style:solid;
+    border-bottom-width:100%;
+    border-bottom-color: #ddd;
+    margin-bottom: 4%;
+    /*margin-top: -100px;*/
+    position: fixed;
+    top: 0px;
+}
+
+#logo{
+    width: 10%;
+    margin-left: 20%;
+    margin-top: 8px;
+}
+
+#pesquisar{
+    width: 17%;
+    height: 20px;
+    outline: none;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.icone{
+    width: 2%;
+}
+
+#origami{
+    width: 2%;
+    transform: rotate(-30deg);
+    margin-top: -10px;
+}
+
+#coracao{
+    width: 2%;
+}
+
+#save{
+    width: 3%;
+}
+
+.fotoredonda{
+    width: 2%;
+    border-radius: 100%;
+    margin-right: 20%;
+}
+
+#postagem{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 80%;
+    align-items:center;
+    justify-content: center;
+    background-color:white;
+    border: 1px solid  #ddd;
+}
+
+#pame{
+    width: 100%;
+    height: 100%;
+}
+
+#foto{
+    
+    background-color: red;
+    width: 60%;
+    height:100%;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start; 
+    background-color:;
+    height: 100%;
+    width: 40%;
+}
+
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-bottom: 1px;
+    border-bottom-style:solid;
+    border-bottom-width:100%;
+    border-bottom-color: #ddd;
+    margin-bottom: 4%;
+    height: 50px;
+}
+
+#fluxologo{
+    width: 30px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+#mais{
+    width: 20px;
+    margin-left: 90px;
+}
+
+#legenda{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    background-color:;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+#fluxologo2{
+    width: 30px;
+    border-radius: 100%;
+    /*margin-right: 270px;*/
+    margin-left:
+    margin-right:
+}
+
+#sologo{
+    height:;
+    width: 10%;
+    margin-left:;
+    background-color:;
+    margin-bottom: 190px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+#sotexto{
+    height: 100%;
+    width: 90%;
+    background-color:;
+}
+#text{
+    margin-left:;
+    margin-top:;
+}
+
+.palavra, #user{
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    margin-left:;
+}
+
+#coracao2,#comente,#origami2{
+    width: 20px;
+    margin-left: 15px;
+}
+
+#origami2{
+    transform: rotate(-30deg);
+    margin-top: -10px;
+}
+
+#save{
+    width: 40px;
+    margin-left: 175px;
+}
+
+
+#curtida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 110px;
+    border-bottom: 1px solid #ddd;
+    background-color:;
+    width: 100%;
+    height: 40px;
+
+}
+
+#fotoredonda2{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+#data{
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #8e8e8e;
+    margin-left: -70px;
+}
+
+#curtir{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: -115px;
+
+}
+
+#date{
+    margin-top: -20px;
+    margin-left: -115px;
+
+}
+
+#comentario{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 60px;
+}
+
+
+#coment{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+
+#publicar{
+    background-color: white;
+    border: none;
+    color: #0094f67e;
+    outline: none;
+    margin-left: 70px;
+}
